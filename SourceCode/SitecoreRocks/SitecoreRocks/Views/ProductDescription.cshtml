@@ -1,0 +1,32 @@
+﻿@using Sitecore.Mvc;
+@using Sitecore.Mvc.Presentation;
+@model SitecoreRocks.Models.Product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Html.Sitecore().Field("title", new {DisableWebEdit=true})</title>
+ </head>
+<body>
+   
+        <div>
+            @Model.Description
+            <div style="float:right">
+                @Model.Image
+            </div>
+            <div>
+                Price: @Model.Price
+            </div>
+        </div>
+
+</body>
+</html>
+
+
+
