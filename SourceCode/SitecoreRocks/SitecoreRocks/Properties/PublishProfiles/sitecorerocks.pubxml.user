@@ -97,10 +97,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2016 17:15:12</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.dll">
-      <publishTime>11/24/2016 13:52:57</publishTime>
+      <publishTime>11/24/2016 14:05:30</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.pdb">
-      <publishTime>11/24/2016 13:52:57</publishTime>
+      <publishTime>11/24/2016 14:05:30</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>

@@ -69,17 +69,16 @@
 
         protected void SampleTest_Click(object sender, EventArgs e)
         {
-            Sitecore.Data.Database masterDB = Sitecore.Configuration.Factory.GetDatabase("master");
-
-            Item parentItem = Sitecore.Context.Item;
-
-            string name = "Comment_" + Sitecore.DateUtil.IsoNow;
-
-            TemplateItem template = masterDB.GetTemplate("/sitecore/templates/User Defined/Comment");
-            
-
             using (new Sitecore.SecurityModel.SecurityDisabler())
             {
+                Sitecore.Data.Database masterDB = Sitecore.Configuration.Factory.GetDatabase("master");
+
+                Item parentItem = Sitecore.Context.Item;
+
+                string name = "Comment_" + Sitecore.DateUtil.IsoNow;
+                Sitecore.Data.ID myid = new Sitecore.Data.ID("{D9EA1BB9-D492-4BAA-851F-3E458F1577F8}");
+                TemplateItem template = masterDB.GetTemplate(myid);
+                
                 try
                 {
                     Item newItem = parentItem.Add("Name", template);
