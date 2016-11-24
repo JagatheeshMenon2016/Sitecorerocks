@@ -97,10 +97,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2016 17:15:12</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.dll">
-      <publishTime>11/24/2016 09:12:43</publishTime>
+      <publishTime>11/24/2016 13:52:57</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.pdb">
-      <publishTime>11/24/2016 09:12:43</publishTime>
+      <publishTime>11/24/2016 13:52:57</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -189,6 +189,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>11/24/2016 07:52:58</publishTime>
     </File>
+    <File Include="Sublayouts/CommentForm.ascx">
+      <publishTime>11/24/2016 12:49:06</publishTime>
+    </File>
+    <File Include="Sublayouts/CommentList.ascx">
+      <publishTime>11/24/2016 13:27:53</publishTime>
+    </File>
     <File Include="Sublayouts/HolidayOverview.ascx">
       <publishTime>11/22/2016 11:36:22</publishTime>
     </File>
@@ -208,7 +214,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/24/2016 08:57:03</publishTime>
     </File>
     <File Include="Views/ProductDescription.cshtml">
-      <publishTime>11/24/2016 09:12:34</publishTime>
+      <publishTime>11/24/2016 10:18:11</publishTime>
     </File>
     <File Include="Views/SampleMVCLayout.cshtml">
       <publishTime>11/15/2016 13:13:49</publishTime>
