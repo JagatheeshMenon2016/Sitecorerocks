@@ -11,10 +11,11 @@
         <asp:TextBox ID="txtContent" runat="server" />
     </div>
 
+
 	<!-- -->
-    <div class="formRow">
+    <%--<div class="formRow">
         <asp:Button Text="Submit comment" ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" />
-    </div>
+    </div>--%>
     <div class="formRow">
         <asp:Button Text="Submit Test" ID="SampleTest" runat="server" OnClick="SampleTest_Click"/>
     </div>

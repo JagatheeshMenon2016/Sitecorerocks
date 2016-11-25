@@ -43,4 +43,3 @@ C:\Projects\SourceCode\SitecoreRocks\SitecoreRocks\bin\System.Web.Webpages.Razor
 C:\Projects\SourceCode\SitecoreRocks\SitecoreRocks\bin\System.Web.Helpers.xml
 C:\Projects\SourceCode\SitecoreRocks\SitecoreRocks\obj\Debug\SitecoreRocks.dll
 C:\Projects\SourceCode\SitecoreRocks\SitecoreRocks\obj\Debug\SitecoreRocks.pdb
-C:\Projects\SourceCode\SitecoreRocks\SitecoreRocks\obj\Debug\SitecoreRocks.csprojResolveAssemblyReference.cache

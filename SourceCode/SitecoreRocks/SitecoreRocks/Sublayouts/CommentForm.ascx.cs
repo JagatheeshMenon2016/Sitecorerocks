@@ -87,6 +87,7 @@
                         newItem.Editing.BeginEdit();
                         newItem["Author"] = txtAuthor.Text;
                         newItem["CommentText"] = txtContent.Text;
+
                         newItem.Editing.EndEdit();
                     }
                 }

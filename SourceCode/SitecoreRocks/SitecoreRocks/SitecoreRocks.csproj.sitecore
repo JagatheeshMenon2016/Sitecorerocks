@@ -2,4 +2,7 @@
   <PropertyGroup>
     <Site Server="sitecorerocks" UserName="sitecore\admin" IsRemoteSitecore="True" />
   </PropertyGroup>
+  <File Include="Sublayouts\TopNavigationSublayout.ascx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{06151823-16C2-4653-B4DC-9F2AA9A34267}</Item>
+  </File>
 </Project>

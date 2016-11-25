@@ -28,9 +28,17 @@ namespace SitecoreRocks.Models
         [SitecoreField]
         public virtual IEnumerable<Home> Children { get; set; }
 
-
+        
 
     }
+    public class MenuItem
+    {
+        public virtual string Title { get; set; }
+
+        public virtual string Url { get; set; }
+        public virtual IEnumerable<MenuItem> Children { get; set; }
+    }
+
 
 
 }

@@ -141,6 +141,7 @@
     <Compile Include="Layouts\Static.aspx.designer.cs">
       <DependentUpon>Static.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\ProductDetails.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,6 +173,13 @@
     <Compile Include="Sublayouts\Introduction.ascx.designer.cs">
       <DependentUpon>Introduction.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Sublayouts\TopNavigationSublayout.ascx.cs">
+      <DependentUpon>TopNavigationSublayout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sublayouts\TopNavigationSublayout.ascx.designer.cs">
+      <DependentUpon>TopNavigationSublayout.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="BicycleInformation.ascx" />
@@ -198,6 +206,7 @@
     <Content Include="Sublayouts\CommentList.ascx" />
     <Content Include="Sublayouts\HolidayOverview.ascx" />
     <Content Include="Sublayouts\Introduction.ascx" />
+    <Content Include="Sublayouts\TopNavigationSublayout.ascx" />
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
   </ItemGroup>
