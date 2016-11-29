@@ -2,8 +2,6 @@
 {
     using Glass.Mapper.Sc;
     using Models;
-    using Models.NewsArtciles;
-    using Sitecore.Web.UI.HtmlControls;
     using System;
 
     public partial class HomePageSubLayout : System.Web.UI.UserControl

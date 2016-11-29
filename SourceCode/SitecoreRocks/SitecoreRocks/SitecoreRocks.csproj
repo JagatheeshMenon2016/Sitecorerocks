@@ -142,7 +142,7 @@
       <DependentUpon>Static.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\HomePage.cs" />
-    <Compile Include="Models\NewsArtcile.cs" />
+    <Compile Include="Models\NewsArticle.cs" />
     <Compile Include="Models\ProductDetails.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\Product.cs" />

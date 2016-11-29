@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SitecoreRocks.Models.NewsArtciles
+namespace SitecoreRocks.Models
 {
     [SitecoreType]
     public class NewsArticle

@@ -97,10 +97,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2016 17:15:12</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.dll">
-      <publishTime>11/29/2016 09:37:28</publishTime>
+      <publishTime>11/29/2016 12:47:20</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.pdb">
-      <publishTime>11/29/2016 09:37:28</publishTime>
+      <publishTime>11/29/2016 12:47:20</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -199,13 +199,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/22/2016 11:36:22</publishTime>
     </File>
     <File Include="Sublayouts/HomePageSubLayout.ascx">
-      <publishTime>11/29/2016 09:37:06</publishTime>
+      <publishTime>11/29/2016 11:52:40</publishTime>
     </File>
     <File Include="Sublayouts/Introduction.ascx">
       <publishTime>11/22/2016 10:23:32</publishTime>
     </File>
+    <File Include="Sublayouts/NewsArticleSublayout.ascx">
+      <publishTime>11/29/2016 12:45:27</publishTime>
+    </File>
     <File Include="Sublayouts/TopNavigationSublayout.ascx">
-      <publishTime>11/28/2016 12:36:29</publishTime>
+      <publishTime>11/29/2016 10:31:33</publishTime>
     </File>
     <File Include="Templates/Layouts/HolidayListing.aspx">
       <publishTime>11/22/2016 10:10:36</publishTime>
@@ -214,7 +217,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/22/2016 09:37:40</publishTime>
     </File>
     <File Include="Views/Homepage.cshtml">
-      <publishTime>11/22/2016 07:05:49</publishTime>
+      <publishTime>11/29/2016 11:43:30</publishTime>
+    </File>
+    <File Include="Views/NewsArticleDescription.cshtml">
+      <publishTime>11/29/2016 12:47:12</publishTime>
     </File>
     <File Include="Views/ProductDesc.cshtml">
       <publishTime>11/24/2016 08:57:03</publishTime>
