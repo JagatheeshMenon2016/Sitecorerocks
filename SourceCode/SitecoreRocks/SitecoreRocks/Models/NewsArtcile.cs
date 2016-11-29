@@ -6,32 +6,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SitecoreRocks.Models
+namespace SitecoreRocks.Models.NewsArtciles
 {
     [SitecoreType]
-    public class Prod_Details
+    public class NewsArticle
     {
         [SitecoreField]
         public virtual string Title { get; set; }
 
         [SitecoreField]
-        public virtual string Description { get; set; }
+        public virtual string Abstract { get; set; }
 
         [SitecoreField]
-        public virtual Image Image { get; set; }
+        public virtual string MainBody { get; set; }
 
         [SitecoreField]
-        public virtual string Price { get; set; }
+        public virtual Image FeaturedImage { get; set; }
+
+        [SitecoreField]
+        public virtual DateTime Date { get; set; }
 
         [SitecoreInfo(SitecoreInfoType.Url)]
         public virtual string Url { get; set; }
 
-        //public virtual IEnumerable<Prod_Details> ProductDetails { get; set; }
-
+        //public virtual IEnumerable<NewsArtcile> News { get; set; }
     }
 }
-
-
-
-
-

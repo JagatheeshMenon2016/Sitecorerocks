@@ -3,6 +3,7 @@ using Glass.Mapper.Sc.Configuration.Attributes;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using SitecoreRocks.Models;
 
 namespace SitecoreRocks.Models
 {
@@ -28,7 +29,7 @@ namespace SitecoreRocks.Models
         [SitecoreField]
         public virtual IEnumerable<Home> Children { get; set; }
 
-        
+
 
     }
     public class MenuItem
@@ -37,6 +38,7 @@ namespace SitecoreRocks.Models
 
         public virtual string Url { get; set; }
         public virtual IEnumerable<MenuItem> Children { get; set; }
+
     }
 
 

@@ -141,6 +141,8 @@
     <Compile Include="Layouts\Static.aspx.designer.cs">
       <DependentUpon>Static.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\HomePage.cs" />
+    <Compile Include="Models\NewsArtcile.cs" />
     <Compile Include="Models\ProductDetails.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\Product.cs" />
@@ -165,6 +167,13 @@
     </Compile>
     <Compile Include="Sublayouts\HolidayOverview.ascx.designer.cs">
       <DependentUpon>HolidayOverview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Sublayouts\HomePageSubLayout.ascx.cs">
+      <DependentUpon>HomePageSubLayout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sublayouts\HomePageSubLayout.ascx.designer.cs">
+      <DependentUpon>HomePageSubLayout.ascx</DependentUpon>
     </Compile>
     <Compile Include="Sublayouts\Introduction.ascx.cs">
       <DependentUpon>Introduction.ascx</DependentUpon>
@@ -205,6 +214,7 @@
     <Content Include="Sublayouts\CommentForm.ascx" />
     <Content Include="Sublayouts\CommentList.ascx" />
     <Content Include="Sublayouts\HolidayOverview.ascx" />
+    <Content Include="Sublayouts\HomePageSubLayout.ascx" />
     <Content Include="Sublayouts\Introduction.ascx" />
     <Content Include="Sublayouts\TopNavigationSublayout.ascx" />
     <Content Include="Views\web.config" />

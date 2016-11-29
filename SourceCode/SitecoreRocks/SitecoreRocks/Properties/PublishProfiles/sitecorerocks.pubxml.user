@@ -97,10 +97,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2016 17:15:12</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.dll">
-      <publishTime>11/25/2016 11:51:25</publishTime>
+      <publishTime>11/29/2016 09:37:28</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.pdb">
-      <publishTime>11/25/2016 11:51:25</publishTime>
+      <publishTime>11/29/2016 09:37:28</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -198,11 +198,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Sublayouts/HolidayOverview.ascx">
       <publishTime>11/22/2016 11:36:22</publishTime>
     </File>
+    <File Include="Sublayouts/HomePageSubLayout.ascx">
+      <publishTime>11/29/2016 09:37:06</publishTime>
+    </File>
     <File Include="Sublayouts/Introduction.ascx">
       <publishTime>11/22/2016 10:23:32</publishTime>
     </File>
     <File Include="Sublayouts/TopNavigationSublayout.ascx">
-      <publishTime>11/25/2016 11:51:02</publishTime>
+      <publishTime>11/28/2016 12:36:29</publishTime>
     </File>
     <File Include="Templates/Layouts/HolidayListing.aspx">
       <publishTime>11/22/2016 10:10:36</publishTime>
@@ -232,7 +235,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/24/2016 07:52:39</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/25/2016 11:55:08</publishTime>
+      <publishTime>11/29/2016 09:37:38</publishTime>
     </File>
   </ItemGroup>
 </Project>
