@@ -12,6 +12,10 @@ namespace SitecoreRocks.Models
     public class NewsArticle
     {
         [SitecoreField]
+        public virtual Guid id { get; set; }
+
+        [SitecoreField]
+
         public virtual string Title { get; set; }
 
         [SitecoreField]

@@ -97,10 +97,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2016 17:15:12</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.dll">
-      <publishTime>11/29/2016 12:47:20</publishTime>
+      <publishTime>12/02/2016 07:39:50</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.pdb">
-      <publishTime>11/29/2016 12:47:20</publishTime>
+      <publishTime>12/02/2016 07:39:50</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -199,7 +199,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/22/2016 11:36:22</publishTime>
     </File>
     <File Include="Sublayouts/HomePageSubLayout.ascx">
-      <publishTime>11/29/2016 11:52:40</publishTime>
+      <publishTime>11/30/2016 09:43:12</publishTime>
     </File>
     <File Include="Sublayouts/Introduction.ascx">
       <publishTime>11/22/2016 10:23:32</publishTime>
@@ -216,20 +216,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Templates/Layouts/Static.aspx">
       <publishTime>11/22/2016 09:37:40</publishTime>
     </File>
+    <File Include="Views/Car/Index.cshtml">
+      <publishTime>11/30/2016 09:28:31</publishTime>
+    </File>
+    <File Include="Views/HelloWorld/Index.cshtml">
+      <publishTime>11/30/2016 07:27:55</publishTime>
+    </File>
     <File Include="Views/Homepage.cshtml">
       <publishTime>11/29/2016 11:43:30</publishTime>
     </File>
+    <File Include="Views/Navigation/SideMenu.cshtml">
+      <publishTime>12/02/2016 08:28:44</publishTime>
+    </File>
     <File Include="Views/NewsArticleDescription.cshtml">
       <publishTime>11/29/2016 12:47:12</publishTime>
+    </File>
+    <File Include="Views/NewsDescriptionUpdate.cshtml">
+      <publishTime>11/30/2016 06:55:26</publishTime>
     </File>
     <File Include="Views/ProductDesc.cshtml">
       <publishTime>11/24/2016 08:57:03</publishTime>
     </File>
     <File Include="Views/ProductDescription.cshtml">
-      <publishTime>11/24/2016 10:18:11</publishTime>
+      <publishTime>12/02/2016 07:34:04</publishTime>
     </File>
     <File Include="Views/SampleMVCLayout.cshtml">
-      <publishTime>11/15/2016 13:13:49</publishTime>
+      <publishTime>12/02/2016 08:33:50</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
       <publishTime>11/24/2016 07:52:39</publishTime>
@@ -241,7 +253,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/24/2016 07:52:39</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/29/2016 09:37:38</publishTime>
+      <publishTime>11/30/2016 09:14:02</publishTime>
     </File>
   </ItemGroup>
 </Project>

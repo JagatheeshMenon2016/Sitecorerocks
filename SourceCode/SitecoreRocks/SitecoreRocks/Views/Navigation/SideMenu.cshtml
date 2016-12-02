@@ -1,0 +1,16 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div>
+    @foreach(var item in Model.Item.Children.ToArray())
+    {
+        if(item["ShowinMenu"]=="1")
+        {
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)">@item["Title"]</a>
+        }
+    }
+
+</div>
