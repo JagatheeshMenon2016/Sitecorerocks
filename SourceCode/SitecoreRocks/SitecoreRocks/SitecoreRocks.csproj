@@ -120,7 +120,9 @@
     <Compile Include="BicycleInformation.ascx.designer.cs">
       <DependentUpon>BicycleInformation.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\HelloWorldController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Layouts\HolidayListing.aspx.cs">
       <DependentUpon>HolidayListing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -142,6 +144,7 @@
     <Compile Include="Layouts\Static.aspx.designer.cs">
       <DependentUpon>Static.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\CarouselSlides.cs" />
     <Compile Include="Models\HomePage.cs" />
     <Compile Include="Models\NewsArticle.cs" />
     <Compile Include="Models\ProductDetails.cs" />
@@ -242,6 +245,8 @@
     <Content Include="Views\ProductDescription.cshtml" />
     <Content Include="Views\HelloWorld\Index.cshtml" />
     <Content Include="Views\Navigation\SideMenu.cshtml" />
+    <Content Include="Views\Carousel.cshtml" />
+    <Content Include="Views\Carousel\Carousel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

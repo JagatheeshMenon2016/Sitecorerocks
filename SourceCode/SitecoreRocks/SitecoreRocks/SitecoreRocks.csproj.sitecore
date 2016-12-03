@@ -5,4 +5,10 @@
   <File Include="Sublayouts\TopNavigationSublayout.ascx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{06151823-16C2-4653-B4DC-9F2AA9A34267}</Item>
   </File>
+  <File Include="Views\Navigation\SideMenu.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{3D9F08C3-2DE6-4727-9E94-D769A7A888B1}</Item>
+  </File>
+  <File Include="Views\Carousel\Carousel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{AE98221D-ABA3-4939-9ECE-9E2AB9832CF5}</Item>
+  </File>
 </Project>

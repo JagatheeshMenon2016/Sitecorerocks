@@ -97,10 +97,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2016 17:15:12</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.dll">
-      <publishTime>12/02/2016 07:39:50</publishTime>
+      <publishTime>12/03/2016 06:43:06</publishTime>
     </File>
     <File Include="bin/SitecoreRocks.pdb">
-      <publishTime>12/02/2016 07:39:50</publishTime>
+      <publishTime>12/03/2016 06:43:06</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -219,6 +219,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Car/Index.cshtml">
       <publishTime>11/30/2016 09:28:31</publishTime>
     </File>
+    <File Include="Views/Carousel Details/Carousel.cshtml">
+      <publishTime>12/02/2016 11:15:11</publishTime>
+    </File>
+    <File Include="Views/Carousel.cshtml">
+      <publishTime>12/02/2016 11:42:20</publishTime>
+    </File>
+    <File Include="Views/Carousel/Carousel.cshtml">
+      <publishTime>12/03/2016 06:25:36</publishTime>
+    </File>
     <File Include="Views/HelloWorld/Index.cshtml">
       <publishTime>11/30/2016 07:27:55</publishTime>
     </File>
@@ -253,7 +262,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/24/2016 07:52:39</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/30/2016 09:14:02</publishTime>
+      <publishTime>12/03/2016 06:26:08</publishTime>
     </File>
   </ItemGroup>
 </Project>
